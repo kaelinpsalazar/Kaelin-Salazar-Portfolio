@@ -1,0 +1,137 @@
+body{font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: burlywood;
+}
+
+header{ 
+padding: 20px;
+background: rgb(142, 151, 128);
+text-align: center;
+color: aliceblue;
+border-radius: 50px;
+margin-left: 100px;
+margin-right: 100px;
+font-size: 37px;
+}
+
+main{ 
+display:flex;
+flex-direction: column;
+
+}
+
+.section-1 {
+    display: flex;
+    padding: 42px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.section-2 {
+    display: flex;
+    padding: 42px;
+    margin-left: 0%;
+}
+.section-3 {
+    display: flex;
+    padding: 42px;
+    margin-left: 20%;
+}
+.section-4 {
+    display: flex;
+    padding: 42px;
+    margin-right: 20%;
+    margin-left:10%
+}
+.section-5 {
+    display: flex;
+    padding: 42px;
+    margin-left: 20%;
+}
+
+nav{
+text-align: center;
+margin: 20px;
+}
+
+nav a{ 
+    text-decoration: none;
+    color: white
+
+}
+
+.placeholder-image{
+    height: 30%;
+    width :30%
+}
+
+.a{ 
+    color: white;
+    text-decoration: none;}
+
+
+footer{
+        position: relative;
+padding:20px;
+background-color:rgb(77, 122, 18) ;
+text-align: center;
+
+}
+
+aside{
+    flex: 25%;
+    background-color:rgb(108, 184, 114);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    ;
+}
+
+
+
+.placeholder-image{ 
+    max-width: 200px;
+    max-height: 200px;
+}
+.project-one-image{
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 155px;
+    margin-left: 2px;}
+
+.project-two-image{
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 21px;
+    margin-left: 125px;
+}
+.project-three-image{
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 180px;
+    margin-left: 2px;}
+.footer-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 200px;
+    max-height: 200px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }}
+
+@media screen and (max-width: 768px) {
+    .card {
+            width: 100%;}}
